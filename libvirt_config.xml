@@ -1,5 +1,5 @@
 <!--Please refer to http://libvirt.org/formatdomain.html -->
-<device>
+<domain type='kvm'>
     <name>${VM_NAME}</name>
     <uuid>${UUID}</uuid>
     <memory>${MEMORY_SIZE}</memory>
@@ -93,4 +93,4 @@
 
     </devices>
 
-</device>
+</domain>
