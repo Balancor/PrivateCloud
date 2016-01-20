@@ -1,3 +1,4 @@
+<!--Please refer to http://libvirt.org/formatdomain.html -->
 <device>
     <name>${VM_NAME}</name>
     <uuid>${UUID}</uuid>
